@@ -1,0 +1,174 @@
+object Form1: TForm1
+  Left = 298
+  Height = 361
+  Top = 167
+  Width = 503
+  Caption = 'Калькулятор'
+  ClientHeight = 361
+  ClientWidth = 503
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.4'
+  object Edit1: TEdit
+    Left = 320
+    Height = 39
+    Top = 8
+    Width = 174
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit1Change
+    ParentFont = False
+    TabOrder = 0
+    Text = '10000'
+  end
+  object Edit2: TEdit
+    Left = 320
+    Height = 39
+    Top = 56
+    Width = 174
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit2Change
+    ParentFont = False
+    TabOrder = 1
+    Text = '5000'
+  end
+  object Label1: TLabel
+    Left = 44
+    Height = 31
+    Top = 8
+    Width = 267
+    Caption = 'Начальная сумма (руб):'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 15
+    Height = 31
+    Top = 56
+    Width = 296
+    Caption = 'Ежемесячный взнос (руб):'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit3: TEdit
+    Left = 344
+    Height = 39
+    Top = 104
+    Width = 100
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit3Change
+    ParentFont = False
+    TabOrder = 2
+    Text = '30'
+  end
+  object Label3: TLabel
+    Left = 168
+    Height = 31
+    Top = 104
+    Width = 164
+    Caption = 'Срок (в годах):'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit4: TEdit
+    Left = 344
+    Height = 39
+    Top = 152
+    Width = 100
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit4Change
+    ParentFont = False
+    TabOrder = 3
+    Text = '10'
+  end
+  object Label4: TLabel
+    Left = 136
+    Height = 31
+    Top = 152
+    Width = 196
+    Caption = 'Годовой рост (%):'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 31
+    Top = 264
+    Width = 470
+    Caption = 'Стоимость портфеля по истечению срока:'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 16
+    Height = 49
+    Top = 296
+    Width = 99
+    Caption = '0 руб'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -40
+    Font.Name = 'Book Antiqua'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 8
+    Height = 31
+    Top = 200
+    Width = 331
+    Caption = 'Средняя инфляция (% в год): '
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit5: TEdit
+    Left = 344
+    Height = 39
+    Top = 200
+    Width = 100
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnChange = Edit5Change
+    ParentFont = False
+    TabOrder = 4
+    Text = '3'
+  end
+end
